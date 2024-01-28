@@ -1,6 +1,8 @@
-package binaryTree
+package concurrency
 
 import (
+    "fmt"
+    
 	"golang.org/x/tour/tree"
 )
 
@@ -48,3 +50,8 @@ func Same(t1, t2 *tree.Tree) bool {
 	}
 }
 
+func TestBinaryTree() {
+	tree1 := tree.New(1)
+	tree2 := tree.New(1)
+	fmt.Println("tree1 and tree2 are the same: ", Same(tree1, tree2))
+}

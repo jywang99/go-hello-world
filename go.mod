@@ -1,4 +1,4 @@
-module go_hello_world
+module go-hello-world
 
 go 1.21.6
 
